@@ -14,6 +14,7 @@ import com.niit.model.User;
 @RequestMapping("/user")
 public class RegistrationController 
 {
+	
 	/*
 	  @RequestMapping("/add")
 	  public void storeUser(@RequestParam("username") String username,@RequestParam("email") String email,@RequestParam("password") String password)
