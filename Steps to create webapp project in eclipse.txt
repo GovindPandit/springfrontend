@@ -1,0 +1,27 @@
+Create spring frontend project:
+
+1)Create new maven project
+2)Select archetype as webapp 
+3)Enter group id and artifact id and hit ok.
+4)download tomcat server
+	-http://mirrors.estointernet.in/apache/tomcat/tomcat-9/v9.0.30/bin/apache-tomcat-9.0.30-windows-x64.zip
+5)Extract zip file in your drive.
+6)Right click on project - properties - search for target runtime - check tomcat and finish.
+7)Right click on project - properties - java build path - order and export - check all check boxes and apply and close.
+8)Add spring web mvc dependency in pom.xml
+9)Goto following link and copy web.xml and dispatcher-servlet.xml code:
+	-https://github.com/GovindPandit/middleware/tree/master/src/main/webapp/WEB-INF
+10)Create IndexController under com.niit.controller package
+11)Create following jsp files:
+		-header.jsp
+		-login.jsp
+		-register.jsp
+		-login.jsp
+
+		-include header.jsp in all pages
+	
+12)Create methods in controller for each jsp page with url pattern.
+
+13)Copy groupid, artifact id and version from backend pom.xml
+14)Create <dependency> tag in pom.xml file of frontend proeject under <dependencies> tag and paste your code.
+15)add jstl dependency.

@@ -1,0 +1,12 @@
+Goto https://test.instamojo.com/
+Sign in
+click on api & plugins
+Scroll down and create new credentials
+Select java language from drop down and click generate credentials
+Copy code from frontend project:
+	-https://github.com/GovindPandit/GAE-NIIT/blob/master/src/main/java/com/niit/controller/OrderController.java
+
+Change your client_id and secret
+Add instamojo dependency to your project
+
+
